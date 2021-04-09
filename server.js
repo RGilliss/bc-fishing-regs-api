@@ -52,8 +52,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/test", (req, res) => {
-  db.query("SELECT * FROM regulations LIMIT 5", []).then((results) => {
+app.get("/regulations", (req, res) => {
+  db.query("SELECT * FROM regulations", []).then((results) => {
     res.status(200).json(results.rows);
     console.log(results);
     console.log("success");
