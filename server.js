@@ -50,6 +50,18 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/test", (req, res) => {
+  db.query("SELECT water_body FROM regulations", [], (error, results) => {
+    if (error) {
+      throw error;
+    }
+
+    res.status(200).json(results.rows);
+    console.log(results);
+    console.log("success");
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
