@@ -76,6 +76,16 @@ app.get("/regulations", (req, res) => {
   });
 });
 
+app.get("/url", (req, res) = {});
+
+app.post("/url", (req, res) => {});
+
+app.put("/url", (req, res) = {});
+
+app.delete("/url", (req, res) = {});
+
+
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
