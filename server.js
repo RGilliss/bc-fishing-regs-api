@@ -1,6 +1,7 @@
 // load .env data into process.env
 require("dotenv").config();
 
+
 // Web server config
 const PORT = process.env.PORT || 8080;
 const ENV = process.env.ENV || "development";
@@ -10,6 +11,7 @@ const sass = require("node-sass-middleware");
 const app = express();
 const morgan = require("morgan");
 const cors = require('cors');
+
 
 app.use(cors());
 
@@ -53,12 +55,16 @@ app.use(express.static("public"));
 // Separated Routes for each Resource
 // Note: Feel free to replace the example routes below with your own
 const usersRoutes = require("./routes/users");
-const widgetsRoutes = require("./routes/widgets");
+const pinsRoutes = require("./routes/pins");
+const regulationsRoutes = require("./routes/regulations");
+const speciesRoutes = require("./routes/species");
 
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
-app.use("/api/users", usersRoutes(db));
-app.use("/api/widgets", widgetsRoutes(db));
+app.use("/users", usersRoutes(db));
+app.use("/pins", pinsRoutes(db));
+app.use("/regulations", regulationsRoutes(db));
+app.use("/species", speciesRoutes(db));
 // Note: mount other resources here, using the same pattern above
 
 // Home page
@@ -68,21 +74,13 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/regulations", (req, res) => {
-  db.query("SELECT * FROM regulations", []).then((results) => {
-    res.status(200).json(results.rows);
-    console.log(results);
-    console.log("success");
-  });
-});
 
-app.get("/url", (req, res) = {});
 
-app.post("/url", (req, res) => {});
+// app.post("/url", (req, res) => {});
 
-app.put("/url", (req, res) = {});
+// app.put("/url", (req, res) = {});
 
-app.delete("/url", (req, res) = {});
+// app.delete("/url", (req, res) = {});
 
 
 
