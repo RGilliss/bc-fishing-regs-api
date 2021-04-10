@@ -26,15 +26,6 @@ db.connect(() => {
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(
-  "/styles",
-  sass({
-    src: __dirname + "/styles",
-    dest: __dirname + "/public/styles",
-    debug: true,
-    outputStyle: "expanded",
-  })
-);
 app.use(express.static("public"));
 
 // Separated Routes for each Resource
