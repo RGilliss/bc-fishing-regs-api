@@ -6,11 +6,14 @@ const bodyParser = require("body-parser");
 const app = express();
 const cors = require('cors');
 
+//Middleware
 app.use(cors());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
 
-//CONNECTION TO DB
+//Connection to DB
 const { Pool } = require('pg');
-const connectionString = process.env.DATABASE_URL //HEROKU ENV FOR DB
+const connectionString = process.env.DATABASE_URL //Heroku ENV for DB
 const db = new Pool({
   connectionString,
   ssl: {
@@ -22,11 +25,7 @@ db.connect(() => {
   console.log('connected to database');
 });
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
-
 // Separated Routes for each Resource
-// Note: Feel free to replace the example routes below with your own
 const usersRoutes = require("./routes/users");
 const pinsRoutes = require("./routes/pins");
 const regulationsRoutes = require("./routes/regulations");
@@ -40,9 +39,8 @@ app.use("/species", speciesRoutes(db));
 
 // Home page
 app.get("/", (req, res) => {
-  res.render("index");
+  res.send('Hello!')
 });
-
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
