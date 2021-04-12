@@ -11,7 +11,12 @@ const router  = express.Router();
 
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    let query = `SELECT * FROM pins`;
+    let query = `SELECT pins.id, title, description, date, image, rating, location, user_id, users.name as name, species.name as species
+    FROM pins
+    JOIN users
+    ON user_id = users.id
+    JOIN species
+    ON species_id = species.id;`;
     console.log(query);
     db.query(query, [])
       .then(results => {
