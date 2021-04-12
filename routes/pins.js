@@ -8,15 +8,10 @@
 
 const express = require('express');
 const router  = express.Router();
-
+//Test
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    let query = `SELECT pins.id, title, description, date, image, rating, location, user_id, users.name as name, species.name as species
-    FROM pins
-    JOIN users
-    ON user_id = users.id
-    JOIN species
-    ON species_id = species.id;`;
+    let query = `SELECT * FROM pins;`;
     console.log(query);
     db.query(query, [])
       .then(results => {
