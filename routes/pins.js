@@ -8,7 +8,7 @@
 
 const express = require('express');
 const router  = express.Router();
-
+//Test
 module.exports = (db) => {
   router.get("/", (req, res) => {
     let query = `SELECT * FROM pins;`;
