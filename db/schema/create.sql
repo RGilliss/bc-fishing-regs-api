@@ -22,22 +22,22 @@ CREATE TABLE species (
 
 INSERT INTO species(name)
 VALUES
-('steelhead_trout'),
-('rainbow_trout'),
-('cutthroat_trout'),
-('bull_trout'),
-('kokanee_salmon'),
-('smallmouth_bass'),
-('white_sturgeon'),
-('yellow_perch'),
-('crayfish'),
-('char'),
-('coho_salmon'),
-('chinook_salmon'),
-('atlantic_salmon'),
-('pink_salmon'),
-('chum_salmon'),
-('sockeye_salmon');
+('Steelhead Trout'),
+('Rainbow Trout'),
+('Cutthroat Trout'),
+('Bull Trout'),
+('Kokanee Salmon'),
+('Smallmouth Bass'),
+('White Sturgeon'),
+('Yellow Perch'),
+('Crayfish'),
+('Char'),
+('Coho Salmon'),
+('Chinook Salmon'),
+('Atlantic Salmon'),
+('Pink Salmon'),
+('Chum Salmon'),
+('Sockeye Salmon');
 
 DROP TABLE IF EXISTS pins CASCADE;
 
