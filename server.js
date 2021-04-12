@@ -12,18 +12,30 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 //Connection to DB
-const { Pool } = require('pg');
-const connectionString = process.env.DATABASE_URL //Heroku ENV for DB
-const db = new Pool({
-  connectionString,
-  ssl: {
-    rejectUnauthorized: false
-  }
-})
+//Toggle 1 (Heroku) before pushing. Toggle 2 for development
 
-db.connect(() => {
-  console.log('connected to database');
-});
+/* 1 */
+// const { Pool } = require('pg');
+// const connectionString = process.env.DATABASE_URL //Heroku ENV for DB
+// const db = new Pool({
+//   connectionString,
+//   ssl: {
+//     rejectUnauthorized: false
+//   }
+// })
+
+// db.connect(() => {
+//   console.log('connected to database');
+// });
+
+/* 2 */
+require('dotenv').config();
+const { Pool } = require('pg');
+const dbParams = require('./lib/db.js');
+const db = new Pool(dbParams);
+db.connect();
+
+
 
 // Separated Routes for each Resource
 const usersRoutes = require("./routes/users");
