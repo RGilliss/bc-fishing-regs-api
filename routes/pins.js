@@ -1,4 +1,4 @@
-const cors = require('cors');
+
 /*
  * All routes for Pins are defined here
  * Since this file is loaded in server.js into /pins,
@@ -9,7 +9,8 @@ const cors = require('cors');
 const { query } = require('express');
 const express = require('express');
 const router = express.Router();
-
+const cors = require('cors');
+app.use(cors());
 
 //Test
 module.exports = (db) => {
