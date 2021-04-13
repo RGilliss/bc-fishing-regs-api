@@ -8,7 +8,7 @@ const cors = require('cors');
 
 //Middleware
 app.use(function(req, res, next) {
-  res.header('Access-Control-Allow-Origin', 'http://local:3002');
+  res.header('Access-Control-Allow-Origin', 'http://localhost:3002');
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
   res.header(
     'Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With, X-Api-Key'
