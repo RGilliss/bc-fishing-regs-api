@@ -7,7 +7,7 @@ const app = express();
 const cors = require('cors');
 
 //Middleware
-app.use(cors());
+app.options("*", cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
