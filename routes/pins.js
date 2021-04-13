@@ -1,4 +1,4 @@
-
+const cors = require('cors');
 /*
  * All routes for Pins are defined here
  * Since this file is loaded in server.js into /pins,
