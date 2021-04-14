@@ -1,3 +1,4 @@
+
 DROP TABLE IF EXISTS users CASCADE;
 
 CREATE TABLE users (
@@ -60,3 +61,22 @@ VALUES
 ('Alice''s favourite spot', 'This place is great. I go here every year.', '2018-12-12', 'https://i.imgur.com/WNbwwfR.jpg', 4.5, '(50.4678, -127.4090)', 3, 2),
 ('Busy Stream', 'Way too many people fishing here', '2020-07-24', 'https://i.imgur.com/ZeDXXb3.jpg', 2, '(49.5, -125.39192512922456)', 12, 1),
 ('Tom''s Sturgeon Spot', 'Lots of fish here!', '2020-06-27', 'https://i.imgur.com/SxP3Rfk.jpg', 4.5, '(49.5, -125.5)', 7, 1);
+
+DROP TABLE IF EXISTS regulations CASCADE;
+
+CREATE TABLE regulations (
+  id SERIAL PRIMARY KEY NOT NULL,
+  water_body VARCHAR(255) NOT NULL,
+  class_water BOOLEAN DEFAULT FALSE,
+  tributary BOOLEAN DEFAULT FALSE,
+  stocked BOOLEAN DEFAULT FALSE,
+  accessible BOOLEAN DEFAULT FALSE,
+  date_range VARCHAR(255),
+  regulation TEXT,
+  location point
+);
+
+COPY regulations(water_body, class_water, tributary, stocked, accessible, date_range, regulation, location)
+FROM '/bc-fishing-regs-api/db/seeds/fishregswcoords.csv'
+DELIMITER ','
+CSV HEADER;
