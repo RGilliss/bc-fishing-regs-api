@@ -12,10 +12,8 @@ const router = express.Router();
 //
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    let query = `SELECT pins.id, title, description, date, image, rating, location, species.name as species
-    FROM pins
-    JOIN species
-    ON species_id = species.id;`;
+    let query = `SELECT pins.id, title, description, date, image, rating, location, species_name
+    FROM pins;`;
     console.log(query);
     db.query(query, [])
       .then((results) => {
@@ -32,7 +30,7 @@ module.exports = (db) => {
   router.post("/", (req, res) => {
     console.log("req", req.body);
     const query = `
-    INSERT INTO pins (title, description, date, image, rating, location, species_id)
+    INSERT INTO pins (title, description, date, image, rating, location, species_name)
     VALUES ($1, $2, $3, $4, $5, $6, $7);`;
     let values = [
       req.body.title,
