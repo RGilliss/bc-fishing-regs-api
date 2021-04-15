@@ -13,10 +13,10 @@ module.exports = (db) => {
   router.get("/", (req, res) => {
     let query = `SELECT pins.id, title, description, date, image, rating, location, species_name
     FROM pins;`;
-    console.log(query);
+    // console.log(query);
     db.query(query, [])
       .then((results) => {
-        console.log(results.rows);
+        // console.log(results.rows);
         const pins = results.rows;
         res.json(pins);
       })

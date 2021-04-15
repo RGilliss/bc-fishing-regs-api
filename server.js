@@ -29,12 +29,14 @@ const usersRoutes = require("./routes/users");
 const pinsRoutes = require("./routes/pins");
 const regulationsRoutes = require("./routes/regulations");
 const speciesRoutes = require("./routes/species");
+const myPinsRoutes = require("./routes/mypins");
 
 // Mount all resource routes
 app.use("/users", usersRoutes(db));
 app.use("/pins", pinsRoutes(db));
 app.use("/regulations", regulationsRoutes(db));
 app.use("/species", speciesRoutes(db));
+app.use("/mypins", myPinsRoutes(db));
 
 // Home page
 app.get("/", (req, res) => {
