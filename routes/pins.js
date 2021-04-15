@@ -9,7 +9,6 @@ const { query } = require("express");
 const express = require("express");
 const router = express.Router();
 
-//
 module.exports = (db) => {
   router.get("/", (req, res) => {
     let query = `SELECT pins.id, title, description, date, image, rating, location, species_name
@@ -28,7 +27,6 @@ module.exports = (db) => {
   });
 
   router.post("/", (req, res) => {
-    console.log("req", req.body);
     const query = `
     INSERT INTO pins (title, description, date, image, rating, location, species_name)
     VALUES ($1, $2, $3, $4, $5, $6, $7);`;
@@ -44,10 +42,64 @@ module.exports = (db) => {
     db.query(query, values)
       .then((results) => {
         console.log("success:", results);
+        res.status(201).send("Pin created");
       })
       .catch((err) => {
+        console.log("error:", err);
         res.status(500).json({ error: err.message });
       });
   });
+
+  router.delete("/", (req, res) => {
+    const query = `
+    DELETE FROM pins
+    WHERE id = $1;`;
+
+    db.query(query, [req.body.pinId])
+      .then((results) => {
+        console.log("success, pin deleted:", results);
+        res.status(200).send("Pin was deleted");
+      })
+      .catch((err) => {
+        console.log("error:", err);
+        res.status(500).json({ error: err.message });
+      });
+  });
+
+  router.put("/", (req, res) => {
+    console.log("req", req.body);
+
+    const query = `
+    UPDATE pins
+    SET title = $1
+        description = $2
+        date = $3
+        image = $4
+        rating = $5
+        location = $6
+        species_name = $7
+    WHERE id = $8;`;
+
+    let values = [
+      req.body.title,
+      req.body.description,
+      req.body.date,
+      req.body.image,
+      req.body.rating,
+      req.body.location,
+      req.body.species,
+      req.body.id,
+    ];
+    db.query(query, values)
+      .then((results) => {
+        console.log("success:", results);
+        res.status(200).send("Pin was edited");
+      })
+      .catch((err) => {
+        console.log("error:", err);
+        res.status(500).json({ error: err.message });
+      });
+  });
+
   return router;
 };
