@@ -30,11 +30,11 @@ module.exports = (db) => {
   });
 
   router.post("/", (req, res) => {
-    console.log("req.body", req.body);
+    console.log("req.body", req);
     const query = `
-    INSERT INTO favourites (user_id, pin_id)
-    VALUES ($1, $2);`;
-    let values = [req.body.userId, req.body.pinId];
+    INSERT INTO favourites (user_id)
+    VALUES ($1);`;
+    let values = [req.body.user_id];
     db.query(query, values)
       .then((results) => {
         console.log("success:", results);
