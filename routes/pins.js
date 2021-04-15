@@ -11,7 +11,7 @@ const router = express.Router();
 
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    let query = `SELECT pins.id, title, description, date, image, rating, location, species_name
+    let query = `SELECT pins.id, title, description, date, image, rating, location, species_name, uuid
     FROM pins;`;
     // console.log(query);
     db.query(query, [])
@@ -28,8 +28,8 @@ module.exports = (db) => {
 
   router.post("/", (req, res) => {
     const query = `
-    INSERT INTO pins (title, description, date, image, rating, location, species_name)
-    VALUES ($1, $2, $3, $4, $5, $6, $7);`;
+    INSERT INTO pins (title, description, date, image, rating, location, species_name, uuid)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8);`;
     let values = [
       req.body.title,
       req.body.description,
@@ -38,6 +38,7 @@ module.exports = (db) => {
       req.body.rating,
       req.body.location,
       req.body.species,
+      req.body.uuid
     ];
     db.query(query, values)
       .then((results) => {
@@ -53,7 +54,7 @@ module.exports = (db) => {
   router.delete("/", (req, res) => {
     const query = `
     DELETE FROM pins
-    WHERE id = $1;`;
+    WHERE uuid = $1;`;
 
     db.query(query, [req.body.pinId])
       .then((results) => {
