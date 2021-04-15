@@ -57,10 +57,18 @@ CREATE TABLE pins (
 INSERT INTO pins(title, description, date, image, rating, location, species_name, user_id)
 VALUES
 ('Alan''s Spot', 'Best spot ever, but be aware of the bears !', '2019-05-12', 'https://uwm.edu/field-station/wp-content/uploads/sites/380/2008/10/crayfish-1.jpg', 5, '(49.103729, -123.865096)', 'Rainbow Trout', 1),
-('Harris Lake tail stream', 'Great spot to fish! lots of midges', '2020-06-24', 'https://imgur.com/gallery/SSWGH', 5, '(49.70093290199038, -125.39192512922456)', 'Rainbow Trout', 1),
+('Harris Lake tail stream', 'Great spot to fish! lots of midges', '2020-06-24', 'https://i.imgur.com/BoQdQFA.jpg', 5, '(49.70093290199038, -125.39192512922456)', 'Rainbow Trout', 1),
 ('Alice''s favourite spot', 'This place is great. I go here every year.', '2018-12-12', 'https://i.imgur.com/WNbwwfR.jpg', 4.5, '(50.4678, -127.4090)', 'Rainbow Trout', 1),
 ('Busy Stream', 'Way too many people fishing here', '2020-07-24', 'https://i.imgur.com/ZeDXXb3.jpg', 2, '(49.5, -125.39192512922456)', 'Rainbow Trout', 2),
 ('Tom''s Sturgeon Spot', 'Lots of fish here!', '2020-06-27', 'https://i.imgur.com/SxP3Rfk.jpg', 4.5, '(49.5, -125.5)', 'Rainbow Trout', 2);
+
+DROP TABLE IF EXISTS favourites CASCADE;
+
+CREATE TABLE favourites (
+  id SERIAL PRIMARY KEY NOT NULL,
+  user_id INTEGER REFERENCES users (id) ON DELETE CASCADE,
+  pin_id INTEGER REFERENCES pins (id) ON DELETE CASCADE
+);
 
 DROP TABLE IF EXISTS regulations CASCADE;
 
@@ -76,7 +84,7 @@ CREATE TABLE regulations (
   location point
 );
 
-COPY regulations(water_body, class_water, tributary, stocked, accessible, date_range, b, location)
-FROM '/vagrant/final/bc-fishing-regs-api/db/seeds/fishregswcoords.csv'
+COPY regulations(water_body, class_water, tributary, stocked, accessible, date_range, regulation, location)
+FROM '/vagrant/bc-fishing-regs-api/db/seeds/fishregswcoords.csv'
 DELIMITER ','
 CSV HEADER;
