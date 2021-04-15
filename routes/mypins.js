@@ -5,10 +5,9 @@ const router = express.Router();
 
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    console.log("HERE WE ARE")
     let query = `SELECT pins.id, title, description, date, image, rating, location, species_name, user_id
     FROM pins WHERE user_id = 1;`
-    console.log(query);
+    // console.log(query);
     db.query(query, [])
       .then((results) => {
         console.log(results.rows);
