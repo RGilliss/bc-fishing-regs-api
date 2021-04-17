@@ -69,14 +69,14 @@ module.exports = (db) => {
 
   router.put("/", (req, res) => {
     console.log("req", req.body);
-
     const query = `
     UPDATE pins
-    SET title = $1
-        description = $2
-        date = $3
-        image = $4
-        rating = $5
+
+    SET title = $1,
+        description = $2,
+        date = $3,
+        image = $4,
+        rating = $5,
         species_name = $6
     WHERE uuid = $7;`;
 
@@ -87,7 +87,8 @@ module.exports = (db) => {
       req.body.image,
       req.body.rating,
       req.body.species,
-      req.body.uuid,
+      req.body.uuid
+
     ];
     db.query(query, values)
       .then((results) => {
