@@ -11,14 +11,15 @@ const router = express.Router();
 
 module.exports = (db) => {
   router.get("/", (req, res) => {
+    console.log("req URL", req.query.user_id);
     let query = `
-    SELECT pins.id, title, description, date, image, rating, location, species_name
+    SELECT title, description, date, image, rating, location, species_name, uuid
     FROM favourites
     JOIN pins
-    ON favourites.pin_id = pins.id
+    ON favourites.pin_uuid = uuid
     WHERE pins.user_id = $1;`;
 
-    db.query(query, [req.body.id])
+    db.query(query, [req.query.user_id])
       .then((results) => {
         const pins = results.rows;
         res.json(pins);
@@ -30,15 +31,14 @@ module.exports = (db) => {
   });
 
   router.post("/", (req, res) => {
-    console.log("req.body", req);
     const query = `
-    INSERT INTO favourites (user_id)
-    VALUES ($1);`;
-    let values = [req.body.user_id];
+    INSERT INTO favourites (user_id, pin_uuid, pin_id)
+    VALUES ($1, $2, $3);`;
+    let values = [req.body.user, req.body.uuid, req.body.pin_id];
     db.query(query, values)
       .then((results) => {
         console.log("success:", results);
-        res.status(201).send("Pin created");
+        res.status(201).send("Favourite created");
       })
       .catch((err) => {
         console.log("error:", err);
@@ -50,9 +50,9 @@ module.exports = (db) => {
     const query = `
     DELETE FROM favourites
     WHERE user_id = $1
-    AND uuid = $2;`;
+    AND pin_uuid = $2;`;
 
-    const values = [req.body.user_id, req.body.uuid]
+    const values = [req.body.user, req.body.uuid];
 
     db.query(query, values)
       .then((results) => {
