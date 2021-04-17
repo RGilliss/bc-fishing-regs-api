@@ -71,6 +71,7 @@ module.exports = (db) => {
     console.log("req", req.body);
     const query = `
     UPDATE pins
+
     SET title = $1,
         description = $2,
         date = $3,
@@ -87,6 +88,7 @@ module.exports = (db) => {
       req.body.rating,
       req.body.species,
       req.body.uuid
+
     ];
     db.query(query, values)
       .then((results) => {

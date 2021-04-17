@@ -46,5 +46,24 @@ module.exports = (db) => {
       });
   });
 
+  router.delete("/", (req, res) => {
+    const query = `
+    DELETE FROM favourites
+    WHERE user_id = $1
+    AND uuid = $2;`;
+
+    const values = [req.body.user_id, req.body.uuid]
+
+    db.query(query, values)
+      .then((results) => {
+        console.log("success, favourite deleted:", results);
+        res.status(200).send("Favourite was deleted");
+      })
+      .catch((err) => {
+        console.log("error:", err);
+        res.status(500).json({ error: err.message });
+      });
+  });
+
   return router;
 };
