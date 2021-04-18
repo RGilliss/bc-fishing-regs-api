@@ -38,7 +38,7 @@ module.exports = (db) => {
       req.body.image,
       req.body.rating,
       req.body.location,
-      req.body.species,
+      req.body.species_name,
       req.body.uuid
     ];
     db.query(query, values)
@@ -87,7 +87,7 @@ module.exports = (db) => {
       req.body.date,
       req.body.image,
       req.body.rating,
-      req.body.species,
+      req.body.species_name,
       req.body.uuid
 
     ];
