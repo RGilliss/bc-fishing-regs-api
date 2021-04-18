@@ -62,7 +62,8 @@ VALUES
 ('d27f0354-154f-4t23-ac1b-032e2df6464a','Alice''s favourite spot', 'I''ve been fishing here since I was a kid!', '2018-12-12', 'https://i.imgur.com/WNbwwfR.jpg', 4.5, '(50.4678, -127.4090)', 'Rainbow Trout', 1),
 ('d27f0354-154f-4c23-as1b-032e2df6464a','Busy Stream', 'Way too many people fishing here', '2020-07-24', 'https://i.imgur.com/ZeDXXb3.jpg', 2, '(49.5, -125.39192512922456)', 'Smallmouth Bass', 2),
 ('d27d0354-154f-4c23-ac1b-032e2df6464a','Tom''s Sturgeon Spot', 'Lots of fish here!', '2020-06-27', 'https://i.imgur.com/SxP3Rfk.jpg', 4.5, '(49.5, -125.5)', 'Rainbow Trout', 2),
-('d27d0324-154w-4c23-ac1b-032e2df6464a','Brooke''s Babbling Brook', 'TOP SECRET!!!', '2020-05-27', 'https://i.imgur.com/OpgJSiS.jpeg', 4, '(44.765, -123.5)', 'Char', 1);
+('d27d0324-154w-4c23-ac1b-032e2df6464a','Brooke''s Babbling Brook', 'TOP SECRET!!!', '2020-05-27', 'https://i.imgur.com/OpgJSiS.jpeg', 4, '(50.227454, -125.262000)', 'Char', 1),
+('f22e1344-111d-4cs3-ac1d-042e6df6464a','Great Bear Lake', 'What an incredible fishing spot. I can''t believe no one else is here. Caught a huge sal-AAAAHHHHHHHHHHHHHH', '2021-02-14', 'https://i.imgur.com/LZ1Xa9r.jpg', 5, '(66.000000, -121.000000)', 'Sockeye Salmon', 1);
 
 DROP TABLE IF EXISTS favourites CASCADE;
 
