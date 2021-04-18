@@ -31,6 +31,7 @@ const regulationsRoutes = require("./routes/regulations");
 const speciesRoutes = require("./routes/species");
 const myPinsRoutes = require("./routes/mypins");
 const myFavouritesRoutes = require("./routes/favourites");
+const searchRoutes = require("./routes/search");
 
 // Mount all resource routes
 app.use("/users", usersRoutes(db));
@@ -38,7 +39,8 @@ app.use("/pins", pinsRoutes(db));
 app.use("/regulations", regulationsRoutes(db));
 app.use("/species", speciesRoutes(db));
 app.use("/mypins", myPinsRoutes(db));
-app.use("/favourites", myFavouritesRoutes(db))
+app.use("/favourites", myFavouritesRoutes(db));
+app.use("/search", searchRoutes(db));
 
 // Home page
 app.get("/", (req, res) => {

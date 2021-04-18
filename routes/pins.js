@@ -26,6 +26,7 @@ module.exports = (db) => {
       });
   });
 
+
   router.post("/", (req, res) => {
     const query = `
     INSERT INTO pins (title, description, date, image, rating, location, species_name, uuid)
