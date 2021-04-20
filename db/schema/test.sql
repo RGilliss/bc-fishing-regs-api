@@ -1,4 +1,3 @@
-
 DROP TABLE IF EXISTS users CASCADE;
 
 CREATE TABLE users (
@@ -73,6 +72,10 @@ CREATE TABLE favourites (
   pin_id INTEGER REFERENCES pins (id) ON DELETE CASCADE,
   pin_uuid VARCHAR(255) NOT NULL
 );
+
+INSERT INTO favourites (user_id, pin_id, pin_uuid)
+VALUES
+(1 , 1, 'd27f0354-154f-4c23-ac1b-032e2df6464a');
 
 DROP TABLE IF EXISTS regulations CASCADE;
 
