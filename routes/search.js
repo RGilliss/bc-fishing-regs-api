@@ -6,7 +6,7 @@ module.exports = (db) => {
     console.log("req.query", req.query.q)
     let query = `SELECT pins.id, title, description, date, image, rating, location, species_name, uuid
     FROM pins
-    WHERE species_name = $1;`;
+    WHERE to_tsvector(title || ' ' || species_name || ' ' || rating || ' '|| description) @@ plainto_tsquery($1);`;
     db.query(query, [req.query.q])
       .then((results) => {
         console.log("species pins",results.rows);
