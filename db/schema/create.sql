@@ -56,7 +56,9 @@ CREATE TABLE pins (
   user_id INTEGER REFERENCES users (id) ON DELETE CASCADE
 );
 
+
 INSERT INTO pins(uuid, title, description, date, image, rating, location, species_name, favourite, user_id)
+
 VALUES
 ('d27f0354-154f-4c23-ac1b-032e2df6464a','Alan''s Spot', 'Best spot ever, but be aware of the bears !', '2019-05-12', 'https://uwm.edu/field-station/wp-content/uploads/sites/380/2008/10/crayfish-1.jpg', 5, '(49.103729, -123.865096)', 'Crayfish', 'true', 1),
 ('d27f0354-154f-4c23-ac1b-032g2df6464a','Harris Lake tail stream', 'Great spot to fish! lots of midges', '2020-06-24', 'https://i.imgur.com/BoQdQFA.jpg', 5, '(49.70093290199038, -125.39192512922456)', 'Rainbow Trout', 'false', 1),
@@ -87,7 +89,6 @@ CREATE TABLE regulations (
   tributary BOOLEAN DEFAULT FALSE,
   stocked BOOLEAN DEFAULT FALSE,
   accessible BOOLEAN DEFAULT FALSE,
-  date_range VARCHAR(255),
   regulation TEXT,
   location point,
   size_water point,
@@ -95,7 +96,9 @@ CREATE TABLE regulations (
   reg_colour VARCHAR(255)
 );
 
-COPY regulations(water_body, class_water, tributary, stocked, accessible, date_range, regulation, location, size_water, circle_size, reg_colour)
+
+COPY regulations(water_body, class_water, tributary, stocked, accessible, regulation, location, size_water, circle_size, reg_colour)
 FROM '/vagrant/bc-fishing-regs-api/db/seeds/fishregswcoords.csv'
+
 DELIMITER ','
 CSV HEADER;
