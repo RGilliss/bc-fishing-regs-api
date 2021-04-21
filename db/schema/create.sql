@@ -83,7 +83,6 @@ CREATE TABLE regulations (
   tributary BOOLEAN DEFAULT FALSE,
   stocked BOOLEAN DEFAULT FALSE,
   accessible BOOLEAN DEFAULT FALSE,
-  date_range VARCHAR(255),
   regulation TEXT,
   location point,
   size_water point,
@@ -91,7 +90,7 @@ CREATE TABLE regulations (
   reg_colour VARCHAR(255)
 );
 
-COPY regulations(water_body, class_water, tributary, stocked, accessible, date_range, regulation, location, size_water, circle_size, reg_colour)
-FROM '/vagrant/PartfishregsBC.csv'
+COPY regulations(water_body, class_water, tributary, stocked, accessible, regulation, location, size_water, circle_size, reg_colour)
+FROM '/vagrant/fishregs.csv'
 DELIMITER ','
 CSV HEADER;
