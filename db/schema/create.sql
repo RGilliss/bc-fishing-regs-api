@@ -55,6 +55,7 @@ CREATE TABLE pins (
   user_id INTEGER REFERENCES users (id) ON DELETE CASCADE
 );
 
+
 INSERT INTO pins(uuid, title, description, date, image, rating, location, species_name, user_id)
 VALUES
 ('d27f0354-154f-4c23-ac1b-032e2df6464a','Alan''s Spot', 'Best spot ever, but be aware of the bears !', '2019-05-12', 'https://uwm.edu/field-station/wp-content/uploads/sites/380/2008/10/crayfish-1.jpg', 5, '(49.103729, -123.865096)', 'Crayfish', 1),
