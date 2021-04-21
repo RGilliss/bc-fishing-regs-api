@@ -13,11 +13,9 @@ module.exports = (db) => {
   router.get("/", (req, res) => {
     console.log("req URL", req.query.user_id);
     let query = `
-    SELECT title, description, date, image, rating, location, species_name, uuid
-    FROM favourites
-    JOIN pins
-    ON favourites.pin_uuid = uuid
-    WHERE pins.user_id = $1;`;
+    SELECT title, description, date, image, rating, location, species_name, uuid, favourite
+    FROM pins
+    WHERE user_id = $1;`;
 
     db.query(query, [req.query.user_id])
       .then((results) => {
@@ -30,40 +28,41 @@ module.exports = (db) => {
       });
   });
 
-  router.post("/", (req, res) => {
-    const query = `
-    INSERT INTO favourites (user_id, pin_uuid, pin_id)
-    VALUES ($1, $2, $3);`;
-    let values = [req.body.user, req.body.uuid, req.body.pin_id];
-    db.query(query, values)
-      .then((results) => {
-        console.log("success:", results);
-        res.status(201).send("Favourite created");
-      })
-      .catch((err) => {
-        console.log("error:", err);
-        res.status(500).json({ error: err.message });
-      });
-  });
+  // router.patch("/", (req, res) => {
+  //   const query = `
+  //   UPDATE pins
+  //   SET favourite = $1
+  //   WHERE uuid = $2`;
+  //   let values = [req.body.favourite, req.body.uuid];
+  //   db.query(query, values)
+  //     .then((results) => {
+  //       console.log("success:", results);
+  //       res.status(201).send("Favourite created");
+  //     })
+  //     .catch((err) => {
+  //       console.log("error:", err);
+  //       res.status(500).json({ error: err.message });
+  //     });
+  // });
 
-  router.delete("/", (req, res) => {
-    const query = `
-    DELETE FROM favourites
-    WHERE user_id = $1
-    AND pin_uuid = $2;`;
+  // router.delete("/", (req, res) => {
+  //   const query = `
+  //   UPDATE pins
+  //   SET favourite = $1
+  //   WHERE uuid = $2`;
 
-    const values = [req.body.user, req.body.uuid];
+  //   const values = [req.body.user, req.body.uuid];
 
-    db.query(query, values)
-      .then((results) => {
-        console.log("success, favourite deleted:", results);
-        res.status(200).send("Favourite was deleted");
-      })
-      .catch((err) => {
-        console.log("error:", err);
-        res.status(500).json({ error: err.message });
-      });
-  });
+  //   db.query(query, values)
+  //     .then((results) => {
+  //       console.log("success, favourite deleted:", results);
+  //       res.status(200).send("Favourite was deleted");
+  //     })
+  //     .catch((err) => {
+  //       console.log("error:", err);
+  //       res.status(500).json({ error: err.message });
+  //     });
+  // });
 
   return router;
 };
