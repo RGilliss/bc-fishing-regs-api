@@ -106,7 +106,7 @@ CREATE TABLE regulations (
 
 
 COPY regulations(water_body, class_water, tributary, stocked, accessible, regulation, location, size_water, circle_size, reg_colour)
-FROM '/vagrant/final/bc-fishing-regs-api/db/seeds/fishregs.csv'
+FROM '/vagrant/bc-fishing-regs-api/db/seeds/fishregs.csv'
 
 DELIMITER ','
 CSV HEADER;
