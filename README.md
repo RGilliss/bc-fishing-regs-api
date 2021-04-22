@@ -9,3 +9,11 @@ This REST API was created to collect and serve fishing regulations in British Co
 3. Run the create.sql (located in db/schema) file in your Postgres DB
 4. npm start the server which will run on Port 8000
 
+## Dependencies
+- Node 10.x or above
+- NPM 5.x or above
+- PG 6.x
+- Cors
+- Dotenv
+- Express
+
