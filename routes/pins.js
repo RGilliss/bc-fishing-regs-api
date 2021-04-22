@@ -13,14 +13,12 @@ module.exports = (db) => {
   router.get("/", (req, res) => {
     let query = `SELECT pins.id, title, description, date, image, rating, location, species_name, uuid, favourite, user_id
     FROM pins;`;
-    // console.log(query);
     db.query(query, [])
       .then((results) => {
         const pins = results.rows;
         res.json(pins);
       })
       .catch((err) => {
-        console.log(err);
         res.status(500).json({ error: err.message });
       });
   });
@@ -42,11 +40,9 @@ module.exports = (db) => {
     ];
     db.query(query, values)
       .then((results) => {
-        console.log("success:", results);
         res.status(201).send("Pin created");
       })
       .catch((err) => {
-        console.log("error:", err);
         res.status(500).json({ error: err.message });
       });
   });
@@ -58,11 +54,9 @@ module.exports = (db) => {
 
     db.query(query, [req.body.pinId])
       .then((results) => {
-        console.log("success, pin deleted:", results);
         res.status(200).send("Pin was deleted");
       })
       .catch((err) => {
-        console.log("error:", err);
         res.status(500).json({ error: err.message });
       });
   });
@@ -91,11 +85,9 @@ module.exports = (db) => {
     ];
     db.query(query, values)
       .then((results) => {
-        console.log("success:", results);
         res.status(200).send("Pin was edited");
       })
       .catch((err) => {
-        console.log("error:", err);
         res.status(500).json({ error: err.message });
       });
   });
@@ -107,11 +99,9 @@ module.exports = (db) => {
     let values = [req.body.favourite, req.body.uuid];
     db.query(query, values)
       .then((results) => {
-        console.log("success:", results);
         res.status(201).send("Favourite boolean changed");
       })
       .catch((err) => {
-        console.log("error:", err);
         res.status(500).json({ error: err.message });
       });
   });

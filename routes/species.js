@@ -9,17 +9,13 @@ const router = express.Router();
 
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    console.log("Get /species")
     let query = `SELECT * FROM species`;
-    console.log(query);
     db.query(query)
       .then((results) => {
-        console.log("This is then")
         const species = results.rows;
         res.json( species );
       })
       .catch((err) => {
-        console.log(err);
         res.status(500).json({ error: err.message });
       });
   });
