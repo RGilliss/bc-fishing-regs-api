@@ -16,7 +16,6 @@ module.exports = (db) => {
     // console.log(query);
     db.query(query, [])
       .then((results) => {
-        //console.log(results.rows);
         const pins = results.rows;
         res.json(pins);
       })
@@ -28,8 +27,8 @@ module.exports = (db) => {
 
   router.post("/", (req, res) => {
     const query = `
-    INSERT INTO pins (title, description, date, image, rating, location, species_name, uuid)
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8);`;
+    INSERT INTO pins (title, description, date, image, rating, location, species_name, uuid, user_id)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);`;
     let values = [
       req.body.title,
       req.body.description,
@@ -39,6 +38,7 @@ module.exports = (db) => {
       req.body.location,
       req.body.species_name,
       req.body.uuid,
+      req.body.user_id
     ];
     db.query(query, values)
       .then((results) => {
