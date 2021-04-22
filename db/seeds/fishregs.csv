@@ -1,6 +1,6 @@
 ADAM RIVER (except Eve River),,,,,"Artificial fly only upstream of Eve River, to Hwy 19 bridge.","(50.47039927938126, -126.2797256876233)","(50.34023658002981, -126.20040486208813)",,
 AHNUHATI RIVER,TRUE,,,,Apr 1-Oct 31: Class II water. Apr 1-June 30: a Steelhead Stamp is mandatory.,"(50.89053136383998, -125.63965485295164)","(50.971471177938426, -125.75896717462811)",,
-ALICE LAKE,,,,,Bait ban; single barbless hook; no trout over 50 cm.,"(50.893884, -125.647037)","(50.971471177938426, -125.75896717462811)",Large,
+ALICE LAKE,,,,,Bait ban; single barbless hook; no trout over 50 cm.,"(50.45998189175954, -127.4148347816862)",,Large,
 AMOR LAKE,,,,,Trout daily quota = 2.,"(50.16771489475462, -125.55703396497609)",,Medium,
 AMOR DE COSMOS CREEK & BEAR RIVER,,,,,"Dec 1 - May 31: No Fishing from mouth to falls about 4 km upstream. Year-round: No Fishing from upper falls downstream 1 km to (Bear River) logging road bridge, 3 km from tidewater.","(50.281030, -125.649358)",,,YELLOW
 “ANDERSON” LAKE,,,,,Artificial fly only; bait ban; single barbless hook. Trout and kokanee release at Unnamed lake in the Walbran Creek Watershed approximately 7 km west/southwest of Mt. Walbran.,"(49.729370, -125.197012)",,Small,
@@ -14,10 +14,10 @@ BLACK CREEK,,TRUE,,,July 15 - Aug 31: No Fishing. Dec 1 - May 31: No Fishing.,"(
 BLACKBURN LAKE,,,,,No powered boats.,"(48.821924, -123.484388)",,X-small,
 BLACKWATER LAKE,,,,,Trout daily quota = 2.,"(50.17404406148373, -125.58901349609211)",,Small,
 BONANZA LAKE,,,,,Bait ban; single barbless hook; no trout over 50 cm.,"(50.363641, -126.769858)",,Large,
-BOOT LAKE,,,TRUE,,Bait ban; single barbless hook; trout daily quota = 2.,"(55.189611, -120.459877)",,X-small,
+BOOT LAKE,,,TRUE,,Bait ban; single barbless hook; trout daily quota = 2.,"(50.054005114011055, -125.53314662277602)",,Small,
 BRANNEN LAKE,,,TRUE,,Speed restriction on parts (60 km/h).,"(49.211687, -124.056109)",,Small,
 BROWNS RIVER,,,,,No Fishing.,"(49.691606, -125.061879)","(49.689024206842326, -125.05026525412838)",,RED
-BUTTLE LAKE’S TRIBUTARIES,,,,,Fly fishing only; except Thelwood Creek which is closed all year.,"(49.571873986851585, -125.5551205738582)","(49.83171756781669, -125.6156726868191)",,
+BUTTLE LAKE’S TRIBUTARIES,,,,,Fly fishing only; except Thelwood Creek which is closed all year.,"(49.821928589991415, -125.62426634673852)","(49.57710512820184, -125.47671655519312)",,
 THELWOOD CREEK,,,,,No fishing.,"(49.566246, -125.554825)","(49.542997436316035, -125.56308241110769)",,RED
 (LOWER) CAMPBELL LAKE’S TRIBUTARIES,,,,,"Feb 1 - July 15: No Fishing, including Campbell River between Strathcona Dam and (Lower) Campbell Lake.","(49.992417, -125.447465)",,Small,RED
 CAMPBELL RIVER,,,,,No Fishing and No vessels between Elk Falls and John Hart Dam Power Station.,"(50.04131651778515, -125.32888642561363)","(50.04365858016264, -125.34070329282945)",,RED
@@ -38,14 +38,14 @@ CLUXEWE RIVER,,TRUE,TRUE,,Dec 1-May 31: No Fishing upstream of the West Main log
 CLUXEWE RIVER,,,,,"Apr 1-Mar 31: Coho Salmon 2 per day, hatchery marked fish only.","(50.61163741402448, -127.17667717934918)","(50.54976264874877, -127.14773109971459)",,
 CONUMA RIVER,,,,,"Aug 25-Dec 31: Chinook 2 per day, only 1 over 77 cm. Coho 2 per day, hatchery marked only.","(49.7930366191453, -126.44017354002384)","(49.815976648105185, -126.34636081706705)",,
 COLQUITZ RIVER,,TRUE,,,No Fishing.,"(48.45941501498501, -123.41113222741497)","(48.45527970819241, -123.3998476302277)",,RED
-COMOX LAKE,,,,,No wild rainbow trout over 50 cm.,"(49.6188, -125.1658)",,Medium,
+COMOX LAKE,,,,,No wild rainbow trout over 50 cm.,"(49.6188, -125.1658)",,Large,
 CONSORT CREEK,,TRUE,,,No Fishing.,"(50.06237616783092, -126.16414842182955)","(50.11612148786983, -126.03957424925709)",,RED
 COPPER CREEK,TRUE,,,,Feb 1-Apr 30: No Fishing from Skidegate Lake to signs at second bridge 6 km upstream of tidal boundary. Sept 1-Apr 30: Class II Water. Dec 1-Apr 30: Steelhead Stamp Mandatory. Cutthroat trout release.,"(53.10803040779019, -131.86799874814344)","(53.16919613394644, -131.79276400559914)",,YELLOW
 COURTENAY RIVER,,,,,Dec 1-Sept 30: No Fishing. Speed restriction on part (8 km/h). Oct 1-Dec 31: Chum Salmon 2 per day.,"(49.66962148272577, -124.94922170313345)","(49.69960805074142, -124.99901774466736)",,RED
 COURTENAY RIVER,,,,,"Oct 1-Nov 30: Downstream from a fishing boundary sign located 75m downstream of the weir at the lower hatchery (excluding the Morrison Creek closure below). Chinook TBD Coho 1 per day, hatchery marked only.","(49.681109, -124.979018)",,,YELLOW
 COUS CREEK,,,,,Nov 1-Apr 30: No Fishing.,"(49.1850, -124.8318)","(49.20634670511096, -124.85538722686593)",,RED
-COWICHAN LAKE (including Bear Lake),,,,,"Cutthroat trout daily quota = 2 (none over 50 cm). Nov 15-Apr 15: Bait ban and single barbless hook. Speed restriction on parts (8 km/h), plus overall 10 km/h speed restriction within 60 m of shore.","(48.879747, -124.297081)",,Large,
-COWICHAN RIVER,,,,,"July 15-Aug 31: No Fishing. Apr 1-Mar 31: No fishing for chinook including tributaries and Cowichan Lake. Sep 1-Nov 15: No Fishing from the white triangle boundary sign located in Sandy Pool Regional Park, downstream to the tidal boundary. Nov 15-Apr 15: No Fishing from weir (dam) at Cowichan Lake’s outlet to Greendale Trestle. Sept 1-Nov 15: No Fishing in tributaries upstream of and including Holt Creek Fly fishing only upstream of CNR Trestle (Mile 66). Sept 1-Nov 15: No Fishing downstream of the CNR Mile 66 Trestle. Fly fishing only from signs at Greendale Trestle to CNR Bridge (mile 70.2). Speed restriction (8 km/h) and engine power restriction - 7.5 kW  (10 hp) on parts. Sep 1-Nov 15: Downstream of the weir on Cowichan Lake to 66 Mile Trestle, Fly-Fishing Only. ","(48.825252, -124.049461)","(48.764359047384715, -123.63281692072134)",,RED
+COWICHAN LAKE (including Bear Lake),,,,,"Cutthroat trout daily quota = 2 (none over 50 cm). Nov 15-Apr 15: Bait ban and single barbless hook. Speed restriction on parts (8 km/h), plus overall 10 km/h speed restriction within 60 m of shore.","(48.978207124774755, -124.45021797745966)","(48.78327174744043, -124.11942796040019)",,
+COWICHAN RIVER,,,,,"July 15-Aug 31: No Fishing. Apr 1-Mar 31: No fishing for chinook including tributaries and Cowichan Lake. Sep 1-Nov 15: No Fishing from the white triangle boundary sign located in Sandy Pool Regional Park, downstream to the tidal boundary. Nov 15-Apr 15: No Fishing from weir (dam) at Cowichan Lake’s outlet to Greendale Trestle. Sept 1-Nov 15: No Fishing in tributaries upstream of and including Holt Creek Fly fishing only upstream of CNR Trestle (Mile 66). Sept 1-Nov 15: No Fishing downstream of the CNR Mile 66 Trestle. Fly fishing only from signs at Greendale Trestle to CNR Bridge (mile 70.2). Speed restriction (8 km/h) and engine power restriction - 7.5 kW  (10 hp) on parts. Sep 1-Nov 15: Downstream of the weir on Cowichan Lake to 66 Mile Trestle, Fly-Fishing Only. ","(48.825252, -124.049461)","(48.764359047384715, -123.63281692072134)",,YELLOW
 CRAIGFLOWER CREEK,,TRUE,,,No Fishing.,"(49.566246, -125.554825)","(49.542997436316035, -125.56308241110769)",,RED
 CRANE LAKE,,,,,"Trout release; bait ban, single barbless hook.","(50.141978, -125.464953)",,Small,
 CRESCENT LAKE,,,,,"Trout release; bait ban, single barbless hook.","(50.120245, -125.524657)",,X-small,
@@ -54,14 +54,14 @@ CUSHEON LAKE,,,TRUE,,Electric motors only.,"(48.815878, -123.469519)",,Small,
 DATLAMEN CREEK,TRUE,TRUE,,,Sept 1-Apr 30: Class II water. Dec 1-Apr 30: Steelhead Stamp mandatory.,"(53.567243, -132.488263)","(53.53094560643929, -132.52327857664977)",,
 DAVIE RIVER,,TRUE,,,Dec 1-May 31: No Fishing downstream of Schoen Lake.,"(50.1624434397351, -126.30253323505717)","(50.18322501320303, -126.4383493122456)",,YELLOW
 DEENA CREEK,TRUE,,,,Feb 1-May 31: No Fishing upstream of fishing boundary signs posted at second bridge approximately 5 km upstream of the tidal boundary. Sept 1-Apr 30: Cutthroat trout release; Class II water. Dec 1-Apr 30: Steelhead Stamp mandatory.,"(53.143889, -132.134444)","(53.11013522470851, -132.1866989678175)",,YELLOW
-DICKSON LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.3975, -125.085833)",,Small,
-DIMPLE LAKE,,,,,"Trout release; bait ban, single barbless hook.","(48.683333, -124.125556)",,X-small,
-DIVER LAKE,,,TRUE,TRUE,Electric motors only; Wheelchair accessible fishing platform located in Diver Lake Park.,"(49.203889, -124.013611)",,X-small,
-DONNER LAKE,,,,,No powered boats.,"(49.719722, -125.901667)",,Small,
+DICKSON LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.40175908011773, -125.09036548448087)",,Small,
+DIMPLE LAKE,,,,,"Trout release; bait ban, single barbless hook.","(48.683333, -124.125556)",,Small,
+DIVER LAKE,,,TRUE,TRUE,Electric motors only; Wheelchair accessible fishing platform located in Diver Lake Park.,"(49.203889, -124.013611)",,e,
+DONNER LAKE,,,,,No powered boats.,"(49.74336165372418, -125.93601837860409)","(49.708019172123, -125.87157188054482)",Small,
 DOUGAN LAKE,,,TRUE,,Electric motors only.,"(48.715, -123.613333)",,X-small,
 DURRANCE LAKE,,,TRUE,,Electric motors only.,"(48.54802579505346, -123.47741602396621)",,X-small,
 ECHO LAKE,,,TRUE,,Electric motors only.,"(49.986667, -125.410278)",,X-small,
-ELK LAKE,,,TRUE,TRUE,"Smallmouth bass daily quota = 4. Engine power restriction on parts - 7.5 kW (10 hp); no vessels on parts, no powered boats on parts, no towing on parts. A wheelchair accessible fishing pier is located on the lake’s northwest shore via Brookleigh Road.","(48.529175, -123.395302)",,Small,
+ELK LAKE,,,TRUE,TRUE,"Smallmouth bass daily quota = 4. Engine power restriction on parts - 7.5 kW (10 hp); no vessels on parts, no powered boats on parts, no towing on parts. A wheelchair accessible fishing pier is located on the lake’s northwest shore via Brookleigh Road.","(48.529175, -123.395302)",,Medium,
 ELK RIVER (Also see Buttle Lake),,,,,Fly fishing only.,"(49.867259031165446, -125.76333679361738)","(49.844714105675806, -125.75643492290435)",,
 ENGLISHMAN RIVER,,,,,July 15-Aug 31: No Fishing. Dec 1-May 31: No Fishing downstream of the lower falls in Englishman River Falls Provincial Park to the Top Bridge crossing at the end of Allsbrook Road. Year-round: No Fishing from lower falls in Englishman River Park to signs approximately 100 m downstream.,"(49.325278, -124.291389)",,,YELLOW
 ESARY LAKE,,,,,"Trout release; bait ban, single barbless hook.","(49.322222, -124.776111)",,X-small,
@@ -69,18 +69,18 @@ EVE RIVER,,TRUE,,,Dec 1-May 31: No Fishing upstream of the fishing boundary sign
 FAIRY LAKE,,,,,"Trout daily quota = 1 (none over 50 cm); bait ban, single barbless hook; engine power restriction - 7.5 kW (10 hp).","(48.585, -124.346111)",,Small,
 FAREWELL LAKE,,,,,"Trout daily quota = 1 (none over 50 cm); artificial fly only, bait ban, single barbless hook.","(50.200181, -125.591376)",,Small,
 FICKLE LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(50.329722, -126.544722)",,Small,
-FLORA LAKE,,,,,"Trout release; bait ban, single barbless hook.","(49.113868, -121.415412)",,X-small,
-FORBUSH LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.509444, -125.229167)",,Small,
+FLORA LAKE,,,,,"Trout release; bait ban, single barbless hook.","(48.86280538907683, -124.72296128215301)",,X-small,
+FORBUSH LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.50764466593535, -125.23740322532407)",,Small,
 FRENCH CREEK,,,,,Dec 1-May 31: No Fishing. July 15-Aug 31: No Fishing.,"(49.3494544447496, -124.35949216140015)","(49.33814259937993, -124.37709509214874)",,YELLOW
 FULLER LAKE,,,TRUE,TRUE,Smallmouth bass daily quota = 4; electric motors only;     wheelchair accessible fishing platform is located in Fuller Lake Park.,"(48.908611, -123.720833)",,Small,
 GLEN LAKE,,,TRUE,,Electric motors only; fishing platform is located in Glen Lake Park.,"(48.433333, -123.51667)",,X-small,
-GOLD LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.980833, -125.990278)",,Small,
+GOLD LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.980833, -125.990278)",,Medium,
 GOLD RIVER,,,,,"Dec 1-May 31: No Fishing downstream of the Muchalat River, not including the Muchalat or Heber Rivers. Year-round: No Fishing upstream of the Muchalat River. No Fishing between the cascade falls (located approximately 6.5 km upstream of Muchalat Inlet, UTM 709137E, 5512420N) and fishing boundary signs approximately 80 m downstream. No powered boats.","(49.782664778101996, -126.04086761109696)","(49.89127398889251, -125.68701465669365)",,YELLOW
-GOLDSTREAM RIVER,,TRUE,,,No Fishing. Apr 1-Mar 31: No Fishing for Salmon.,"(51.651667, -118.622222)","(51.63023996947276, -118.15289520281243)",,RED
+GOLDSTREAM RIVER,,TRUE,,,No Fishing. Apr 1-Mar 31: No Fishing for Salmon.,"(48.49268505862077, -123.55380148769575)","(48.45515482014492, -123.53601348648728)",,RED
 GORDON RIVER ,,TRUE,,,July 15-Aug 31: No Fishing. Nov 1-Apr 30: No Fishing;  artificial fly only upstream of Bugaboo Creek when open.,"(48.579094355354584, -124.41200201521049)","(48.791171642804755, -124.3610573820138)",,YELLOW
 GRACIE LAKE,,,TRUE,,Electric motors only.,"(49.212778, -125.085556)",,X-small,
 GRAHAM LAKE,,,,,Electric motors only.,"(49.511389, -124.7575)",,Small,
-GREEN LAKE,,,TRUE,,Electric motors only.,"(51.416667, -121.209722)",,X-small,
+GREEN LAKE,,,TRUE,,Electric motors only.,"(49.23082172206299, -124.06121624755508)",,X-small,
 GREENSTONE CREEK,,TRUE,,,No Fishing.,"(50.017222, -125.571667)","(50.01790174424237, -125.56952063574349)",,RED
 GUNFLINT LAKE,,,,,"Trout release; bait ban, single barbless hook; electric motors only.","(50.071111, -124.954444)",,Small,
 HAGUE LAKE,,,,,Electric motors only.,"(50.061667, -124.968611)",,Small,
@@ -92,17 +92,17 @@ HEALY (Panther) LAKE,,,,,"Trout release; fly fishing only, bait ban, single barb
 HEALY LAKE’S OUTLET STREAM,,,,,No Fishing.,"(49.139722, -124.319167)","(49.14721768615949, -124.3074779352087)",,RED
 HEBER RIVER,,,,,"No Fishing downstream of top of the lower canyon, located approximately 1.3 km upstream of the Gold River confluence. Nov 1-Apr 30: No Fishing. May 1-Oct 31: Fly fishing only downstream of Saunders Creek to the top of the lower canyon.","(49.68051907046034, -126.1112201879824)","(49.8292294993632, -126.08241772395199)",,YELLOW
 HEMMINGSEN CREEK,,TRUE,,,No Fishing.,"(48.631723796443204, -124.25433554439995)","(48.66017305855587, -124.26826600541125)",,RED
-HENRY LAKE,,,,,"Trout release; artificial fly only, bait ban, single barbless hook.","(53.771389, -123.249167)",,Small,
+HENRY LAKE,,,,,"Trout release; artificial fly only, bait ban, single barbless hook.","(49.17642959032028, -124.61516250438682)",,Small,
 HIGGENS LAKE,,,,,"Trout release; bait ban, single barbless hook.","(50.075, -125.509722)",,Small,
 HOLLAND LAKE,,,,,No powered boats.,"(48.948056, -123.865278)",,X-small,
 IDA LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(50.451389, -126.813056)",,Small,
-ILLUSION LAKES,,,,,No powered boats.,"(49.3525, -124.637778)",,Small,
+ILLUSION LAKES,,,,,No powered boats.,"(49.3525, -124.637778)",,X-small,
 JASPER LAKE,,,,,"Trout release; bait ban, single barbless hook.","(50.171944, -125.405)",,X-small,
 JOHN HART LAKE’S TRIBUTARIES,,,,,Apr 15-July 15: No Fishing (includes channel downstream of Ladore Dam).,"(50.04426748151198, -125.38021388479694)",,Medium,RED
 JUNE LAKE,,,,,Trout daily quota = 2.,"(49.475833, -125.261944)",,Small,
 KAKWEIKEN LAKE,,,,,"Trout release; bait ban, single barbless hook.","(50.885278, -125.958611)",,Small,
 KAKWEIKEN RIVER,,TRUE,,,Apr 1-Oct 31: Class II water. Apr 1-June 30: Steelhead Stamp mandatory.,"(50.806667, -126.024167)","(50.85538344294296, -125.96252717681521)",,
-GREAT CENTRAL LAKE,,,,,"Single barbless hook, no wild rainbow trout over 50 cm. Jan 1-Apr 30: No Fishing, from the dam to fishing boundary signs approximately 50 m upstream (southwest) of the Ash Main Bridge.","(49.35, -125.25)",,Large,YELLOW
+GREAT CENTRAL LAKE,,,,,"Single barbless hook, no wild rainbow trout over 50 cm. Jan 1-Apr 30: No Fishing, from the dam to fishing boundary signs approximately 50 m upstream (southwest) of the Ash Main Bridge.","(49.41966669453735, -125.4032182228527)","(49.29492566498511, -124.99383377632404)",,YELLOW
 HONNA RIVER,,TRUE,,,Cutthroat trout release. Sept 1-Apr 30: Class II water. Dec 1-Apr 30: Steelhead Stamp mandatory.,"(53.24981979620349, -132.13331924251926)","(53.245630962992486, -132.1312163906854)",,
 KEMP LAKE,,,TRUE,,No powered boats.,"(48.379167, -123.780834)",,X-small,
 KEOGH RIVER,,,,, No Fishing downstream of lower fish counting fence near tidewater. Dec 1-May 31: No Fishing in all parts.,"(50.6775, -127.348333)","(50.60398207432003, -127.30376427172658)",,YELLOW
@@ -113,8 +113,8 @@ LAKE WESTON (“Weston Lake”),,,,,"Trout daily quota = 1 (none over 50 cm); ba
 LANGFORD LAKE,,,TRUE,,Smallmouth bass daily quota = 4. Electric motors only; fishing platforms are available off Leigh Road and the Nixon Trail.,"(48.448056, -123.530278)",,Small,
 LITTLE MAIN LAKE (Quadra Island),,,,,Electric motors only. Nov 1-Apr 30: Bait ban and single barbless hook.,"(50.209722, -125.253056)",,X-small,
 LITTLE QUALICUM RIVER ,,,,,No Fishing - All tributaries. The standard 100 m closure around a fish rearing facility has been reduced to a no fishing area from the hatchery fence to signs approximately 35 m downstream. July 15-Aug 31: No Fishing. Dec 1-May 31: No Fishing from the falls in Little Qualicum Falls Provincial Park downstream to the hatchery fence. Sept 1-Nov 30: Fly fishing only (where open). Sept 1-Nov 30: All Salmon species Fly FIshing Only. Apr 1-Mar 31: No Fishing from the hatchery fence to signs located approximately 35 meters downstream. Dec 1 to May 31: No fishing from the falls in Little Qualicum Falls Provincial Park downstream to the hatchery fence.,"(49.367363583108514, -124.50330548658981)","(49.35045860392725, -124.48680943421068)",,RED
-LIZARD LAKE,,,TRUE,,"Trout daily quota = 2; bait ban, single barbless hook; electric motors only.","(51.073333, -123.166111)",,X-small,
-LIZARD POND,,,,,"Trout daily quota = 1; artificial fly only, bait ban, single barbless hook.","(47.191738, -67.051618)",,Small,
+LIZARD LAKE,,,TRUE,,"Trout daily quota = 2; bait ban, single barbless hook; electric motors only.","(49.13946260697713, -124.67400212065958)",,Small,
+LIZARD POND,,,,,"Trout daily quota = 1; artificial fly only, bait ban, single barbless hook.","(49.0674509185108, -124.78274924971223)",,Small,
 LOIS LAKE,,,TRUE,,"Trout daily quota = 1; artificial fly only, bait ban, single barbless hook.","(49.421045, -125.134992)",,X-small,
 LONG LAKE (Nanaimo),,,TRUE,TRUE,Speed restriction on parts (60 km/h);     wheelchair accessible fishing platform is located in Loudon Park.,"(49.211380, -124.019420)",,Small,
 LOON LAKE,,,TRUE,,Electric motors only.,"(49.253142, -124.700177)",,X-small,
@@ -136,7 +136,7 @@ MEGIN LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.49173
 MICHAEL LAKE ,,,,,No powered boats.,"(49.040890, -123.810356)",,Small,
 MILLER CREEK,,TRUE,,,No Fishing.,"(49.985833, -125.451111)","(49.98293987797572, -125.45192505244248)",,RED
 MOHUN CREEK     ,,TRUE,,,No Fishing from Menzies Bay logging mainline bridge crossing to Morton Lake. Dec 1-May 31: No Fishing.,"(50.12193494538042, -125.47114065807664)","(50.11249525268225, -125.37350886652519)",,RED
-MISTY LAKE,,,,,No Fishing (located in an Ecological Reserve).,"(50.607222, -127.263056)",,X-small,RED
+MISTY LAKE,,,,,No Fishing (located in an Ecological Reserve).,"(50.607222, -127.263056)",,Small,RED
 MORTE LAKE,,,,,Electric motors only.,"(50.144444, -125.298889)",,Small,
 MUCHALAT RIVER,,TRUE,,,No wild rainbow trout over 50 cm. Dec 1-May 15: No Fishing.,"(49.8425, -126.093333)","(49.86603067914787, -126.14922972839044)",,RED
 MYRA LAKE,,,,,No Fishing.,"(49.983056, -125.750833)",,Small,RED
@@ -147,7 +147,7 @@ NANAIMO RIVER,,,,,Sept 15-Oct 30: No Fishing from the Cedar Road Bridge upstream
 NANAIMO RIVER,,,,,"Artificial fly only upstream of the westernmost of the two Nanaimo Lakes, known locally as “Second” Lake, including tributaries. Engine power restriction on parts - 7.5 kW (10 hp).","(49.089570027348145, -124.23157636276552)","(49.07784675920932, -124.40200569007943)",,
 NANAIMO RIVER,,,,,"Oct 15-Mar 31: Including tributaries, except in no fishing areas, 1 Coho per day, maximum size 35 cm. Jan 1-Dec 31: No fishing Salmon from the power line crossing at ""Bore Hole"" upstream to the fishing boundary signs at the mouth of Boulder Creek. Sep 15-Oct 30: No fishing salmon Cedar Road Bridge upstream approx. 400 m to the fishing boundary sign located near the Hwy 19 bridge crossing. Nov 1-Dec 31: Coho 2 per day, hatchery marked only, Chum 2 per day from the upstream side of the Cedar Road Bridge, upstream to the downstream side of the Highway 1 overpass. Engine power restriction on parts - 7.5 kW (10 hp).","(49.078394552738054, -123.85012697249087)","(49.09227612589894, -124.13887790400588)",,
 NIMPKISH RIVER,,TRUE,,,Dec 1-May 15: No Fishing upstream of Davie River.,"(50.566389, -126.981944)","(50.52286332561499, -127.01563791127852)",,YELLOW
-NITINAT LAKE,,,,,Note: Nitinat Lake is tidal water; tidal regulations apply and a (federal) Tidal Waters Sport Fishing Licence is required.,"(48.738611, -124.760833)",,Large,
+NITINAT LAKE,,,,,Note: Nitinat Lake is tidal water; tidal regulations apply and a (federal) Tidal Waters Sport Fishing Licence is required.,"(48.68744485744548, -124.86442022941235)","(48.81760006182646, -124.6570532988749)",,
 NITINAT RIVER,,TRUE,,,Exempt from July 15-Aug 31 summer closure. ,"(48.821389, -124.681944)","(48.97751287669104, -124.55210899192163)",,
 NITINAT RIVER,,,,,No Fishing upstream of Parker Creek.,"(48.89901803818683, -124.56984611584805)","(48.97751287669104, -124.55210899192163)",,YELLOW
 NITINAT RIVER,,,,,"Aug 25-Dec 31: No Fishing between fishing boundary signs approximately 100 m upstream of and downstream of “Red Rock Pool,” approximately 2 km (by road) south of the Nitinat River Bridge.","(48.85963069250991, -124.65027702922546)","48.86111296937117, -124.6518648968886",,YELLOW
@@ -159,7 +159,7 @@ NITINAT RIVER,,,,,"Oct 16-Dec 31: Chum 2 per day downstream of Parker Creek, exc
 NITINAT RIVER,,,,,Aug 25-Oct 15: Finfish closure at Nitinat River from 50m upstream to 50m downstream of the Nitinat River bridge.,"(48.86619472827336, -124.64360369328507)","(48.86527722665591, -124.64018119474098)",,
 NITINAT RIVER,,,,,"Apr 1-Mar 31: Finfish closure from the powerline crossing upstream of the Nitinat River Hatchery water intake, downstream to the lowest point of confluence with the Little Nitinat River and then perpendicular to the flow of the Nitinat River, to the opposite shore.","(48.86100618949477, -124.65141845924182)","(48.85518975321494, -124.65472294059478)",,
 NITINAT RIVER,,,,,Aug 25-Dec 31: Finfish closure between fishing boundary signs located approximately 100m above and below Red Rock Pool.,"(48.89855025818861, -124.56746716521894)","(48.89539038041497, -124.57162995341683)",,
-NOLA LAKE,,,,,No Fishing.,"(49.964167, -125.750278)",,X-small,RED
+NOLA LAKE,,,,,No Fishing.,"(49.968457904517535, -125.75010796416183)",,Small,RED
 OYSTER RIVER,,,TRUE,,Dec 1-June 30: No Fishing upstream of the confluence with Little Oyster River. Exempt from July 15-Aug 31 summer closure. ,"(49.8725, -125.115833)","(49.84121867846034, -125.35021700811457)",,YELLOW
 O’CONNELL LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(50.391944, -127.723889)",,Small,
 PALLANT CREEK ,TRUE,TRUE,,,Sept 1-Apr 30: Class II water. Dec 1-Apr 30: Steelhead Stamp mandatory.,"(53.051944, -132.032222)","(53.0507380171597, -132.02919253600913)",,
@@ -176,8 +176,8 @@ PUNTLEDGE RIVER,,,,,"No Fishing between fishing boundary signs approximately 100
 QUALICUM RIVER,,,,,No Fishing downstream of boundary signs located approximately 100 m downstream of the hatchery counting fence.,"(49.39611052549589, -124.61796875931357)","(49.398607860700125, -124.61526151405825)",,YELLOW
 QUALICUM RIVER,,,,,Aug 15-Oct 15: No Fishing from the upper hatchery weir (located 125 m downstream of the E&N Trestle) to boundary sign: located approximately 100 m downstream of the hatchery counting fence.,"(49.39280469841205, -124.61873049218059)","(49.39611052549589, -124.61796875931357)",,YELLOW
 QUALICUM RIVER,,,,TRUE,"No Fishing tributaries. Single barbless hook, no hooks greater than 15 mm from point to shank. Exempt from July 15-Aug 31 summer closure. Sept 30 to Dec 31: Coho 2 per day at those waters upstream of the Big Qualicum Hatchery upper weir (located approximately 125 m downstream of the E&N railway bridge). Aug 15 to Oct 15: Pink Salmon 4 per day at those waters upstream of the Big Qualicum Hatchery upper weir (located approximately 125 m downstream of the E&N railway bridge). Aug 15 to Oct 15: No fishing for salmon downstream of the upper weir (located approximately 125 m downstream of the E&N railway bridge) to the QFN boundary fence located approximately 100 m downstream of the hatchery counting fence. Apr 1 to Mar 31: No fishing for salmon from the Reserve boundary below the Big Qualicum hatchery downstream to the Hwy 19A bridge. Wheelchair accessible fishing platform is located at the hatchery. Aug 15-Oct 15: Reduced area of the  angling closure in the vicinity of the E&N trestle.","(49.39280469841205, -124.61873049218059)","(49.38393026218259, -124.6395529438353)",,
-QUATSE RIVER,,TRUE,TRUE,,"Hatchery steelhead daily quota = 1. May 1-June 15: No Fishing. Dec 1-June 15: No Fishing upstream of the Quatse River fishway (approximately 1.4 km upstream of Dick Booth Creek). May 1-Nov 30: Bait ban. Jun 15 to Mar 31: Coho 2 per day, hatchery marked fish only. Apr 1 to Mar 31: No fishing 100m upstream and downstream of the Quatse River Hatchery weir. ","(50.699722, -127.48)","(50.69606161381299, -127.67768328877818)",,RED
-QUENNELL LAKE,,,TRUE,,Smallmouth bass daily quota = 4; speed restriction on parts (8 km/h).,"(49.07374605, -123.82976721998119)",,Small,
+QUATSE RIVER,,TRUE,TRUE,,"Hatchery steelhead daily quota = 1. May 1-June 15: No Fishing. Dec 1-June 15: No Fishing upstream of the Quatse River fishway (approximately 1.4 km upstream of Dick Booth Creek). May 1-Nov 30: Bait ban. Jun 15 to Mar 31: Coho 2 per day, hatchery marked fish only. Apr 1 to Mar 31: No fishing 100m upstream and downstream of the Quatse River Hatchery weir. ","(50.63859261490489, -127.54827537841705)","(50.70657635498492, -127.47240004575482)",,RED
+QUENNELL LAKE,,,TRUE,,Smallmouth bass daily quota = 4; speed restriction on parts (8 km/h).,"(49.07408732564026, -123.81975449265995)",,Medium,
 QUINSAM RIVER,,TRUE,,TRUE,"No Fishing from the fishing boundary signs at power line crossing (approximately 25 m upstream of Quinsam Hatchery weir) to fishing boundary signs approximately 300 m downstream of weir. Dec 1-June 30: No Fishing from the falls situated downstream of Middle Quinsam Lake to the fishing boundary signs at power line crossing (approximately 25 m upstream of the Quinsam hatchery weir). Exempt from July 15-Aug 31 summer closure. Oct 1-Dec 31: 4 coho per day in the aggregate, only two of which may be greater than 35 cm and those two must be hatchery marked. July 24-Sep 15: 4 Pink salmon per day. Wheelchair accessible fishing platform is located near the Hwy 28 Bridge.","(50.03643445241852, -125.28316253467214)","(49.977223600495066, -125.33081538321032)",,YELLOW
 REAY CREEK,,,,,Apr 1-Mar 31: No fishing for salmon.,"(48.63399251972023, -123.40691287630419)","(48.642355215561764, -123.42259788813806)",,YELLOW
 REGAN LAKE,,,,,"Trout release; bait ban, single barbless hook.","(49.819444, -125.314444)",,Small,
@@ -191,19 +191,19 @@ ST. MARY LAKE,,,TRUE,,Electric motors only.,"(49.264189684416905, -124.627943518
 SAN JUAN RIVER,,TRUE,,,No Fishing upstream of Fleet River. Coho Opportunities dependent on in-season coho run size (coho over 35 cm) at the waters of the San Juan River and its tributaries downstream of the Fleet River that are open to fishing for salmon. July 15-Aug 31: No Fishing. ,"(48.559722, -124.398611)","(48.600687856213284, -123.98081565003756)",,YELLOW
 SEYMOUR RIVER,,,,,Aug 15-Oct 31: Class II water. Apr 1 to Mar 31: Coho 2 per day. Steelhead Stamp not required unless fishing for steelhead.,"(51.19121413855057, -126.67400344625439)","(51.23199539091635, -126.63495620693907)",,
 SHAWNIGAN CREEK,,,,,Apr 1 to Mar 31: No Fishing for Salmon.,"(48.655556, -123.559444)","(48.65443382912447, -123.57821895770445)",,YELLOW
-SHAWNIGAN LAKE,,,TRUE,,Smallmouth bass daily quota = 4; Speed restrictions on parts (8 and 65 km/h).,"(48.657778, -123.62639)",,Medium,
+SHAWNIGAN LAKE,,,TRUE,,Smallmouth bass daily quota = 4; Speed restrictions on parts (8 and 65 km/h).,"(48.626540847392164, -123.63932612553384)",,Medium,
 SALMON RIVER ,,TRUE,,,No Fishing upstream of Kay Creek. No powered boats upstream of confluence with White River; speed restriction (10 km/h) from estuary to confluence with White River.,"(50.393723849656595, -125.9541472726414)","(50.30900604563263, -125.90336855579454)",,YELLOW
 SOMASS RIVER,,,TRUE,,"Aug 25-Nov 15: No Fishing between the tidal boundary at Papermill Dam to boundary signs approximately 1.0 km upstream (Falls Road Gravel Pit and the southern most end of Collins Farm/Arrow Vale Campground on Hector Road). June 1-Aug 24: Bait ban. Engine power restriction 7.5 kW (10 hp). Aug 25 to Dec 31: Chinook 2 per day, 1 of which may be more than 77cm in length, except in the areas with restrictions. Aug 25 to Dec 31: Coho 2 per day except in the areas with restrictions. Aug 25 to Nov 15: Finfish closure from the tidal boundary at the Papermill Dam to white triangular fishing boundary signs approximately 0.5 km upstream (Falls Road Gravel Pit and the southernmost end of Collins Farm/Arrow Vale Campground-Hector Road). July 1-July 23: Sockeye 1 per day between 5:00 am to 10:00 pm only at that portion of the Somass River located approximately 200 meters above and 150 metres below the island near the boat launch at Somass Park near Service Road.","(49.289602251667894, -124.8915615057616)","(49.24493718480989, -124.81323378059477)",,YELLOW
 SOOKE RIVER,,TRUE,,,No Fishing from the base of the lower “potholes” falls to signs approximately 100 m downstream. July 15-Aug 31: No Fishing. Sept 1-Nov 30: Fly fishing only downstream of Sooke River Falls.,"(48.430493053612125, -123.71733964959093)","(48.38548763670459, -123.69795687798762)",,
-SPIDER LAKE,,,TRUE,,Smallmouth bass daily quota = 4;  no powered boats.,"(49.343611, -124.628333)",,Small,
-SPROAT LAKE,,,,,"Cutthroat trout release, no wild rainbow trout over 50 cm; single barbless hook.","(49.283333, -124.91667)",,Medium,
+SPIDER LAKE,,,TRUE,,Smallmouth bass daily quota = 4;  no powered boats.,"(49.34849624034041, -124.62705040147273)",,Small,
+SPROAT LAKE,,,,,"Cutthroat trout release, no wild rainbow trout over 50 cm; single barbless hook.","(49.295570111786624, -124.91727400096083)","(49.26199558074826, -125.22443735242776)",,
 SPROAT RIVER,,,,,June 15-Nov 15: No Fishing from Sproat Lake to fishing boundary signs approximately 300 m downstream of Hwy 4. May 1-Oct 31: Bait ban. Apr 1-Mar 31: No retention of salmon. May 1-Oct 31: Bait ban.,"(49.28926635932188, -124.91574430277585)","(49.289602251667894, -124.8915615057616)",,YELLOW
 STAMP RIVER,,,,,Jan 1-Apr 30: No Fishing from the confluence with Ash River upstream to the Great Central Lake dam.,"(49.36187533492823, -124.97742697284329)","(49.33846328749493, -124.98859107478191)",,YELLOW
 STAMP RIVER,,,,,"Bait ban all year upstream of signs at “Girl Guide Falls” (approximately 250 m upstream of the mouth of Beaver Creek). Engine power restriction 7.5 kW (10 hp), on parts. June 1-Aug 24: Bait ban downstream of signs at “Girl Guide Falls” (approximately 250 m upstream of the mouth of Beaver Creek). Aug 25-Dec 31: Chinook 2 per day, 1 of which may be more than 77 cm. in length, except in areas with restrictions. Coho 2 per day.","(49.289602251667894, -124.8915615057616)","(49.36166461859188, -124.97701507311932)",,
-STEWART LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook; electric motors only.","(50.046389, -126.007778)",,Small,
+STEWART LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook; electric motors only.","(50.046389, -126.007778)",,Medium,
 STOCKING LAKE,,,,,No powered boats.,"(48.959722, -123.825278)",,Small,
 “STOWELL LAKE” (Lake Stowell),,,TRUE,,Electric motors only.,"(48.781536, -123.443636)",,X-small,
-STRAMBERG LAKE,,,,,"Trout release; bait ban, single barbless hook; electric motors only.","(50.190278, -125.247222)",,X-small,
+STRAMBERG LAKE,,,,,"Trout release; bait ban, single barbless hook; electric motors only.","(50.190278, -125.247222)",,Small,
 STRATHCONA PARK WATERS,,,,,"No powered boats on any water within Strathcona Park except Gold, Upper Campbell and Buttle lakes.","(49.853451172320966, -125.64411916501565)","(49.82785268193211, -125.60962883895643)",,
 TADJISS LAKE,,,TRUE,,"Trout daily quota = 1; artificial fly only, bait ban, single barbless hook.","(48.691944, -123.864444)",,X-small,
 TAYLOR RIVER,,,,,Fly fishing only.,"(49.28193508476686, -125.20874948288906)","(49.32335506936174, -125.51265497296183)",,
@@ -232,10 +232,10 @@ VILLAGE BAY LAKE,,,,,Nov 1-Apr 30: Bait ban and single barbless hook. Engine pow
 WAHPEETO CREEK,,,,,No Fishing within 100 m downstream of the falls situated approximately 4.5 km upstream of Wakeman River.,"(51.145, -126.4825)",,,YELLOW
 WAKEMAN RIVER,,TRUE,,,Apr 1-Oct 31: Class II water. Apr 1-June 30: Steelhead Stamp mandatory.,"(51.043129545330764, -126.54989491091418)","(51.2836661834413, -126.47900728129142)",,
 Washlawlis River ,,,,,Apr 1-Mar 31: Coho 1 per day.,"(50.36000, -127.25000)","(50.34486616437041, -127.24448576656762)",,
-WESTWOOD LAKE,,,TRUE,TRUE,Smallmouth bass daily quota = 4. wheelchair accessible fishing platform is located in Westwood Lake Park.,"(49.160856, -124.001410)",,X-small,
+WESTWOOD LAKE,,,TRUE,TRUE,Smallmouth bass daily quota = 4. wheelchair accessible fishing platform is located in Westwood Lake Park.,"(49.160856, -124.001410)",,Small,
 WHITE RIVER,,TRUE,,,No Fishing between fishing boundary signs at the salmon viewing pool. Nov 1-Apr 30: No Fishing upstream of the Sayward Road Bridge crossing.,"(50.30717709008181, -125.90314589542399)","(50.18572369654943, -125.73140519837143)",,YELLOW
-WILLEMAR LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.508611, -125.1925)",,Medium,
+WILLEMAR LAKE,,,,,"No trout over 50 cm; bait ban, single barbless hook.","(49.508611, -125.1925)",,Small,
 WOWO LAKE,,,TRUE,,"Trout daily quota = 2; artificial fly only, bait ban, single barbless hook. Electric motors only.","(49.857222, -125.380278)",,X-small,
 YAKOUN RIVER,TRUE,TRUE,,,Cutthroat trout release. No powered boats. Oct 1-Apr 30: No Fishing from Yakoun Lake downstream approximately 13 km to posted fishing boundary signs. Sept 1-Apr 30: Class II water. Dec 1-Apr 30: Steelhead Stamp mandatory.,"(53.656944, -132.205833)","(53.347366590940176, -132.25966693199314)",,YELLOW
-ZEBALLOS LAKE,,,,,No Fishing.,"(50.080278, -126.74)",,Small,RED
+ZEBALLOS LAKE,,,,,No Fishing.,"(50.07767640417445, -126.7504729251182)",,Medium,RED
 ZEBALLOS RIVER,,TRUE,,,Nov 1-Apr 30: No Fishing.,"(49.981667, -126.8525)","(50.06887787276995, -126.7591812373317)",,RED
