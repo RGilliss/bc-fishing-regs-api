@@ -10,7 +10,6 @@ const router  = express.Router();
 module.exports = (db) => {
   router.get("/", (req, res) => {
     let query = `SELECT * FROM regulations`;
-    console.log(query);
     db.query(query, [])
       .then(results => {
         const regulations = results.rows;
