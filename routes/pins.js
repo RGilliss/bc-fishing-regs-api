@@ -11,12 +11,12 @@ const router = express.Router();
 
 module.exports = (db) => {
   router.get("/", (req, res) => {
-    let query = `SELECT pins.id, title, description, date, image, rating, location, species_name, uuid
+    let query = `SELECT pins.id, title, description, date, image, rating, location, species_name, uuid, favourite, user_id
     FROM pins;`;
     // console.log(query);
     db.query(query, [])
       .then((results) => {
-        // console.log(results.rows);
+        //console.log(results.rows);
         const pins = results.rows;
         res.json(pins);
       })
@@ -25,7 +25,6 @@ module.exports = (db) => {
         res.status(500).json({ error: err.message });
       });
   });
-
 
   router.post("/", (req, res) => {
     const query = `
@@ -39,7 +38,7 @@ module.exports = (db) => {
       req.body.rating,
       req.body.location,
       req.body.species_name,
-      req.body.uuid
+      req.body.uuid,
     ];
     db.query(query, values)
       .then((results) => {
@@ -88,13 +87,28 @@ module.exports = (db) => {
       req.body.image,
       req.body.rating,
       req.body.species_name,
-      req.body.uuid
-
+      req.body.uuid,
     ];
     db.query(query, values)
       .then((results) => {
         console.log("success:", results);
         res.status(200).send("Pin was edited");
+      })
+      .catch((err) => {
+        console.log("error:", err);
+        res.status(500).json({ error: err.message });
+      });
+  });
+  router.patch("/", (req, res) => {
+    const query = `
+    UPDATE pins
+    SET favourite = $1
+    WHERE uuid = $2`;
+    let values = [req.body.favourite, req.body.uuid];
+    db.query(query, values)
+      .then((results) => {
+        console.log("success:", results);
+        res.status(201).send("Favourite boolean changed");
       })
       .catch((err) => {
         console.log("error:", err);
